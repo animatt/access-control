@@ -1,5 +1,11 @@
 #!/usr/local/bin/python3
 
+# This is an access control problem in which the server decides whether to admit
+# a customer based on priority. It would probably make more sense to solve this
+# problem using a tabular method as it seems that the generalization of function
+# approximation is causing some issues in this case.
+
+
 import RLtoolkit.tiles as tiles
 import numpy as np
 import matplotlib.pyplot as plt
